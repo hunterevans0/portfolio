@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+Hunter Evans
+27 April 2023
+-->
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <meta name="author" content="Hunter Evans">
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Hunter Evans">
+    <meta name="keywords" content="contact information contact form">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylesContact.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Hunter Evans</a></h1>
+        <nav>
+            <table>
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="about.html">About</a></td>
+                    <td><a href="experience.html">Experience</a></td>
+                    <td><a id="location" href="contact.html">Contact</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <main>
+        <h2 id="info">Contact Information</h2>
+        <p><a href="mailto:hunterevans@my.cwi.edu">hunterevans@my.cwi.edu</a></p>
+        <p><a href="tel:+12091111111">(209) 111-1111</a></p>
+
+        <h2>Contact Me</h2>
+        <form action="mailto:hunterevans@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+            <div id="part1">
+                <div>
+                    <label for="compName">Company:</label> <input type="text" id="compName" name="compName" required>
+                </div>
+                <div>
+                    <label for="contactName">Person to Contact:</label> <input type="text" id="contactName" name="contactName" required>
+                </div>
+                <div>
+                    <label for="employment">Type of Position:</label> 
+                    <select name="employment" id="employment" required>
+                        <option value="Intern">Internship</option>
+                        <option value="Part-time">Part-time</option>
+                        <option value="Full-time">Full-time</option>
+                        <option value="Temporary">Temporary</option>
+                        <option value="On call">On call</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <label for="referral">How did you find me?</label>
+                <br><br>
+                <div id="radioItems">
+                    <input type="radio" name="referral" id="linkedin"
+                        value="LinkedIn"> <label for="linkedin" class="radio">LinkedIn</label>
+                    <input type="radio" name="referral" id="job-fair"
+                        value="Job Fair"> <label for="job-fair" class="radio">Job Fair</label>
+                    <input type="radio" name="referral" id="partner"
+                        value="partner" required> <label for="partner" class="radio">CWI Corporate Partner</label>
+                </div>
+            </div>
+            <div>
+                <label for="comment">Comment:</label> <textarea id="comment" name="comment" required></textarea>
+            </div>
+            <h4>* All fields are required *</h4>
+            <input type="submit" value="Submit" class="btn">
+            <input type="reset" value="Reset" class="btn">
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn logo"></a><a href="https://github.com" target="_blank"><img src="images/github.svg" alt="github logo"></a>
+    </footer>
+</body>
+</html>

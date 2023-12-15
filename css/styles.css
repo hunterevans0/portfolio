@@ -1,0 +1,64 @@
+/*
+Hunter Evans
+27 April 2023
+*/
+
+body{
+    background: #1E1E1E;
+    color: #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 18px;
+}
+header,main{
+    margin: 0px 300px 0px 300px;
+
+}
+hr{
+    height: 1px;
+    border-width: 0;
+    color: #666666;
+    background-color: #585858;
+}
+nav a{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+main a,header h1 a{
+    text-decoration: none;
+}
+main a:link,header h1 a:link{
+    color: #9CDCFE;
+}
+main a:visited,header h1 a:visited{
+    color: #9CDCFE;
+}
+main a:hover,header h1 a:hover{
+    color: #569CD6;
+} 
+main a:active,header h1 a:active{
+    color: #345f83;
+}
+nav table{
+    background-color: #3a3a3a;
+    margin: auto;
+}
+nav table tr td a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 27px;
+    text-decoration: none;
+}
+nav table tr td a:hover{
+    background-color: #1E1E1E;
+}
+#location{
+    background-color: #2f6b9c;
+}
+footer{
+    text-align: center;
+}
+footer img{
+    padding: 10px
+}

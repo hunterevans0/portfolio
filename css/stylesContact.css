@@ -1,0 +1,90 @@
+/*
+Hunter Evans
+27 April 2023
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@font-face{
+    font-family: 'Archivo';
+      src: url('../fonts/archivo.woff') format('woff'),
+           url('../fonts/archivo.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+main{
+    margin: 0 600px;
+}
+h2{
+    text-align: center;
+}
+div{
+    margin: 20px;
+}
+select{
+    background-color: #3a3a3a;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    width: 90px;
+    height: 25px;
+}
+#part1 label{
+    margin-right: 5px;
+    width: 180px;
+    display: inline-block;
+    text-align: right;
+}
+.radio{
+    width:50px;
+    margin-right: 50px;
+}
+#radioItems{
+    margin-bottom: 25px;
+    margin-top: 0;
+
+}
+input[type=text]{
+    background-color: #444444;
+    border: none;
+    color: #dbdbdb;
+    width: 200px;
+    height: 20px;
+    font-size: 16px;
+}
+textarea{
+    width: 560px;
+    height: 150px;
+    background-color: #3a3a3a;
+    border: none;
+    color: #dbdbdb;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
+textarea:focus,div input:focus{
+    font-size: 1.2rem;
+    padding: 7px;
+    border: 1px solid #468bc4;
+    outline: none;
+}
+textarea,div input{
+    transition: 0.2s;
+}
+.btn{
+    background-color: #555555;
+    color: #ffffff;
+    height: 25px;
+    width: 75px;
+    font-size: 15px;
+    margin-right: 18px;
+}
+#info{
+    font-family: 'Archivo', Arial, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 28px;
+}
+p{
+    font-family: 'Gruppo', Arial, sans-serif;
+    text-align: center;
+    font-size: 21px;
+}
